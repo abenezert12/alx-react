@@ -1,25 +1,23 @@
 .Notifications {
+  border: 3px dashed #e14852;
   padding: 1em;
-  border: 2px dashed red;
-  position: absolute;
-  top: 1.8em;
-  right: 0;
-}
-
-.notification-header {
-  display: flex;
-  justify-content: space-between;
+  float: right;
+  margin: 10px 30px 0 0;
 }
 
 .menuItem {
   text-align: right;
+  margin-right: 30px;
+}
+
+.Notifications button img {
+  width: 20px;
 }
 
 [data-notification-type="default"] {
   color: blue;
 }
 
-[data-urgent],
 [data-notification-type="urgent"] {
   color: red;
 }
