@@ -1,12 +1,9 @@
-:root {
-  --principal-color: #e14852;
+.App-body {
+  font-size: 1rem;
+  padding: 2em;
+  height: 45%;
 }
 
-.body-login {
-  margin: 50px 0 350px 60px;
-  flex-grow: 1;
-}
-
-.body-login input {
-  margin: 0 20px 0 10px;
+form input {
+  margin: 10px;
 }
